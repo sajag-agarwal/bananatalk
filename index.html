@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Talk</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="\images\minions.jpg">
 </head>
 <body>
-    <h1>Banana Talk</h1>
+    <nav>
+        <img src ="\images\minions-svgrepo-com.svg" />
+        <h1>Banana Talk</h1>
+    </nav>
+    <section class="nw"> <h1>Welcome to <span class="nw-newcolor">Minion's world!</span></h1>
+        <span class="desc">World has been taken over my minions. Learn your masters' language and become their instant favourite.</span>
+    </section>
+    
+    <textarea placeholder="Enter the text to be translated to banana." id="text-input"></textarea>
+    
+    <button>Translate</button>
+    
+    <section class="nw">
+        <span class="desc">Output will come here:</span>
+    </section>
+
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>

@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #fbbf24;
+}
+body {
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Montserrat:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap");
+
+body {
+  font-family: "Arimo", sans-serif;
+}
+nav {
+  background-color: var(--primary-color);
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  height: 10%;
+}
+h1 {
+  margin-top: 0rem;
+  font-size: 5vh;
+  margin-bottom: 0rem;
+  font-family: "Lora", serif;
+}
+nav img {
+  width: 8%;
+}
+textarea {
+  display: block;
+  margin: 1rem;
+  height: 10vh;
+  width: 80%;
+  padding: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  border: 3px solid var(--primary-color);
+}
+#output {
+  display: block;
+  margin: 1rem;
+  height: 10vh;
+  width: 80%;
+  padding: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  border: 3px solid var(--primary-color);
+}
+.nw {
+  background-color: #fde68a;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+.nw-newcolor {
+  color: #ef4444;
+}
+.desc {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: black;
+  font-size: larger;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
